@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>IBL2018 @Telstra</title>
+
+    <meta name="description" content="Finally I have reach to the end of the 2018 IBL placement in Telstra. This presentation is for showing what I have contributed and learnt during this placement." />
+    <meta name="author" content="Katherine Chen" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/dark.css" rel="stylesheet" />
+
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+    <div id="introduction" class="step" data-x="-800" data-y="1000" data-scale="5">
+      <h1>
+        <span>2018 IBL Placement in</span>
+        <b class="scaling">TELSTRA</b>
+      </h1>
+      <span>by: Yue Chen (Katherin)</span>
+    </div>
+
+    <div id="onboarding" class="step" data-x="2500" data-y="0" data-z="2" data-scale="3">
+      <img src="img/Onboarding.PNG" width="1248" height="780">
+    </div>
+
+    <div id="onboarding-dotpoint" class="step" data-x="2000" data-y="500" data-rel-z="-5" data-scale="1">
+        <h1>Techniques involved:</h1>
+        <ul style="text-align: left;">
+            <li>React</li>
+            <li>Node.js
+                <ul>
+                    <li>Express</li>
+                    <li>Socket.io</li>
+                </ul>
+            </li>
+            <li>Spark SDK
+                <ul>
+                    <li>OAuth</li>
+                    <li>Video Call/Voice Call</li>
+                    <li>Webhook (Real time chating)</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="nab" class="step" data-x="6500" data-y="0" data-scale="3">
+      <img src="img/1356.jpg" width="1248" height="780">
+    </div>
+
+    <div id="woodlea" class="step" data-x="2500" data-y="2500" data-scale="3">
+      <img src="img/1356.jpg" width="1248" height="780">
+    </div>
+
+    <div id="cumulocity-1" class="step" data-x="6500" data-y="2500" data-scale="3">
+      <img src="img/Cumulocity-1.PNG" width="1248" height="780">
+    </div>
+
+    <div id="cumulocity-2" class="step" data-rel-x="0" data-rel-y="1150" data-rel-z="-1000" data-rotate-x="-90" data-scale="3">
+      <img src="img/Cumulocity-2.PNG" width="1248" height="780">
+    </div>
+
+    <div id="personal-1" class="step" data-x="15000" data-y="8000" data-scale="3">
+        <h1>About This Placement</h1>
+  <pre><code>
+  { "How we work / What we do" : {
+      "Agile": ["9 Day Sprint", "Daily Standup", "Retrospective"],
+      "Daily life": [
+        "Programmer",
+        "Meetings",
+        "Exhibitions/Trainings"],
+    }
+  }
+  </code></pre>
+    </div>
+
+    <div class="step" data-rel-x="100" data-rel-y="1150" data-rotate-x="-30" data-rel-z="-100" data-scale="3">
+      <img src="img/team-1.jpg" width="640" height="480">
+    </div>
+
+    <div id="personal-2" class="step" data-x="20000" data-y="8000" data-scale="3">
+        <h1>Conclusion</h1>
+  <pre><code>
+  { "What I learnt" : {
+      "Technical skills": ["Backend", "Frontend", "IoT", "Mobile App"],
+      "Soft skills": [
+        "Public presentation",
+        "Leadership",
+        "Team planning"],
+    }
+  }
+  </code></pre>
+    </div>
+
+    <div class="step" data-rel-x="100" data-rel-y="1150" data-rotate-x="-30" data-rel-z="-100" data-scale="3">
+  <pre><code>
+  { "Stuff I've influenced" : {
+      "Algorithms": "Brought Algorithms/ML to the projects",
+      "Documentations": "Set up coding conventions with the team",
+      "Ideas": "Brought new angles and insights to the team",
+    }
+  }
+  </code></pre>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="1000" data-z="0" data-scale="7">
+    </div>
+
+</div>
+
+<div id="impress-toolbar"></div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate. <br/>
+       Press 'P' to launch speaker console.</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Swipe left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+
+<script src="extras/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<!--
+
+    The `impress()` function also gives you access to the API that controls the presentation.
+
+    Just store the result of the call:
+
+        var api = impress();
+
+    and you will get three functions you can call:
+
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( stepIndex | stepElementId | stepElement, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+
+-->
+
+</body>
+</html>
